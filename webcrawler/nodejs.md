@@ -22,6 +22,8 @@ request('https://www.google.com.ar', (err, res, body) => {
 });
 ```
 
+En el repo ya tienen un archivo `webcrawler-v1.js`, donde realiza el anterior `request`, y que pueden usar de base.
+
 Una vez tengan el crawler funcionando, realizar las siguientes mejoras, en una versión 2:
 1. Agregar un parámetro que indique el número máximo de páginas a visitar.
 2. Agregar un termino de búsqueda, de manera que se indiquen solo aquellas páginas que contengan dicho termino.
@@ -31,4 +33,4 @@ Finalmente, pasar a una versión 3, en donde:
 1. Se pueda indicar un nivel de profundidad, de manera que se sigan también los enlaces relativos de las páginas visitadas. Por ejemplo, un nivel de profundidad igual a 2, buscaría también los enlaces en cada una de las paginas que son enlazadas desde la dirección original.
 2. Genere un archivo que contenga una traza de las paginas visitadas, con sus enlaces correspondientes.
 
-El código del crawler deberá ser puesto en un respositorio GitHub.
+El código del crawler deberá ser puesto en este repositorio GitHub.
